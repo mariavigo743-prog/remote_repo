@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张三 - 个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">ZS</a>
+            <ul class="nav-menu">
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">你好，我是</p>
+            <h1 class="hero-name">张三</h1>
+            <h2 class="hero-title">全栈开发工程师</h2>
+            <p class="hero-desc">热爱构建优雅、高性能的 Web 应用</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">查看作品</a>
+                <a href="#contact" class="btn btn-outline">联系我</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名拥有 5 年经验的全栈开发工程师，目前专注于 React 和 Node.js 生态。热衷于将复杂问题转化为简洁、直观的解决方案。</p>
+                    <p>曾在多家科技公司主导过核心产品的前后端架构设计与开发，具备从 0 到 1 搭建项目的完整经验。相信优秀的代码既能满足业务需求，也能让后来的开发者感到愉悦。</p>
+                    <p>工作之余，我喜欢写技术博客、参与开源项目，以及探索最新的 Web 技术。</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span class="info-label">姓名</span>
+                        <span class="info-value">张三</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">所在地</span>
+                        <span class="info-value">中国 · 北京</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">邮箱</span>
+                        <span class="info-value">zhangsan@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">工作经验</span>
+                        <span class="info-value">5 年</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">专业技能</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>前端开发</h3>
+                    <div class="skill-tags">
+                        <span>React</span><span>Vue</span><span>TypeScript</span>
+                        <span>Next.js</span><span>Tailwind CSS</span><span>HTML5/CSS3</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>后端开发</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span><span>Python</span><span>Go</span>
+                        <span>PostgreSQL</span><span>Redis</span><span>GraphQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & 工具</h3>
+                    <div class="skill-tags">
+                        <span>Docker</span><span>AWS</span><span>CI/CD</span>
+                        <span>Git</span><span>Linux</span><span>Nginx</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">项目作品</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span>EC</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>电商平台</h3>
+                        <p>基于 Next.js 构建的全栈电商平台，支持 SSR、支付集成和实时库存管理。</p>
+                        <div class="project-tech">
+                            <span>Next.js</span><span>Prisma</span><span>Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <span>DA</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>数据分析看板</h3>
+                        <p>实时数据可视化看板，支持多维度数据筛选与自定义图表配置。</p>
+                        <div class="project-tech">
+                            <span>React</span><span>D3.js</span><span>WebSocket</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <span>IM</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>即时通讯工具</h3>
+                        <p>支持群聊、文件传输、消息已读状态的企业级即时通讯应用。</p>
+                        <div class="project-tech">
+                            <span>Go</span><span>WebSocket</span><span>React</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <p class="contact-subtitle">有任何问题或合作意向，欢迎随时联系</p>
+            <div class="contact-links">
+                <a href="mailto:zhangsan@example.com" class="contact-link">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+                    <span>zhangsan@example.com</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener" class="contact-link">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12 24 5.37 18.63 0 12 0z"/></svg>
+                    <span>GitHub</span>
+                </a>
+                <a href="#" class="contact-link">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 8a6 6 0 0 1-6 6 6 6 0 0 1-6-6"/><circle cx="18" cy="6" r="1" fill="currentColor"/><line x1="17" y1="13" x2="20" y2="13"/><line x1="17" y1="17" x2="22" y2="17"/></svg>
+                    <span>微信公众号</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 张三. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
